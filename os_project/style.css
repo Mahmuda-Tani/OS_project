@@ -1,0 +1,122 @@
+body {
+	background: rgb(199, 195, 195);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: "Cantora One";
+	box-sizing: border-box;
+}
+ 
+.dp {
+	position: absolute;
+    top: 35px;
+    left: 420px;
+    background-color: #50d0da;
+    background:white;
+    width: 500px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+	font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px; 
+    border: 4px;
+    border-style :solid;
+	border-color: rgb(8, 8, 8);
+	font-weight: bold;
+} 
+
+
+.form
+{
+	width: 500px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgb(126, 122, 122);
+	/*text-align: center;*/
+	border: 1px solid #ccc;
+	border-radius: 10px;
+
+}
+
+
+
+.form label {
+	color:white;
+	font-size: 18px;
+    padding: 10px;
+
+ 
+}
+
+
+
+ .dtani{
+
+	position:flex ;
+    top: 20px;
+    left: 420px;
+    background-color: #19191a;
+    background:white;
+    width: 900px;
+    height: 384px;
+    line-height: 55px;
+    text-align: center;
+	font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px; 
+    border: 2px;
+    border-style :solid;
+    border-color: rgb(252, 249, 251);
+} 
+
+#leftbox { 
+	float:left;  
+	background:rgb(22, 22, 49); ; 
+	width:33%; 
+	height:360px; 
+	border: 5px;
+	border-color: black;
+	border-radius: 10px;
+} 
+#middlebox{ 
+	float:left;  
+	background:rgb(19, 18, 18); 
+	width:34%; 
+	height:360px; 
+	border: 5px;
+	border-color: black;
+	border-radius: 10px;
+} 
+#rightbox{ 
+	float:right; 
+	background:rgb(166, 185, 185); ; 
+	width:33%; 
+	height:360px; 
+	border: 5px;
+	border-color: black;
+	border-radius: 10px;
+} 
+/* 
+#underbox{
+
+	float: inline-end;
+    left:0;
+	height:40px;
+	width: 210px;
+    border-style:solid;
+	border-width:2px;
+	border-color: cornsilk;
+	margin-top :500px; 
+	margin-left:100px;
+	background-color: rgb(99, 128, 223);
+	border-radius:10px;
+} */
